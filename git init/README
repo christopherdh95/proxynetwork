@@ -1,0 +1,6 @@
+7		private final RemoteSocketConnection remoteConnection;
+8	
+9		RemoteProxyUplink(RemoteSocketConnection remoteConnection) {
+…	
+56						Constants.connectionMap.remove(remoteConnection.getTcpConnectionID());
+57					} catch (IOException e) {
